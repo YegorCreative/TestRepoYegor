@@ -365,3 +365,22 @@ background-color: #292929;
    color: white;
    padding-top: 120px;
 }
+
+.JesusCares{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.JesusCares p {
+  width: 750px;
+  padding:25px;
+  box-sizing: border-box;
+  font-family: 'Prata', serif;
+}
+.JesusCares h3{
+  text-align: center;
+}
