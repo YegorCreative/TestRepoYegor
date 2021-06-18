@@ -366,7 +366,7 @@ background-color: #292929;
    padding-top: 120px;
 }
 
-.JesusCares,.findChurch{
+.JesusCares,.findChurch, .googleMaps{
   width: 100%;
   box-sizing: border-box;
   padding: 25px;
@@ -385,8 +385,16 @@ background-color: #292929;
   text-align: center;
 }
 .findChurch {
-  background-image: url(../Assets/De1.png);
+  background-image: url(../Assets/Asset2.png);
   background-size: cover;
   background-blend-mode: lighten;
   height: 500px;
+  background-color: #e38f87;
+}
+.findChurch span{
+  color: white;
+}
+.googleMaps{
+  background-color: #292929;
+  padding: 0;
 }
