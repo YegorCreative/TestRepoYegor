@@ -366,7 +366,7 @@ background-color: #292929;
    padding-top: 120px;
 }
 
-.JesusCares{
+.JesusCares,.findChurch{
   width: 100%;
   box-sizing: border-box;
   padding: 25px;
@@ -375,7 +375,7 @@ background-color: #292929;
   justify-content: center;
   align-items: center;
 }
-.JesusCares p {
+.JesusCares p ,.findChurch p{
   width: 750px;
   padding:25px;
   box-sizing: border-box;
@@ -383,4 +383,10 @@ background-color: #292929;
 }
 .JesusCares h3{
   text-align: center;
+}
+.findChurch {
+  background-image: url(../Assets/De1.png);
+  background-size: cover;
+  background-blend-mode: lighten;
+  height: 500px;
 }
