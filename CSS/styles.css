@@ -153,7 +153,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-direction: row ;
 }
 
 .leftSide2, .rightSide2 {  
