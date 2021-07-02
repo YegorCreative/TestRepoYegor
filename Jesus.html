@@ -23,13 +23,26 @@
         <a href="#">Online</a>
       </div>
       <div class="three3">
-        <a href="#" class="knopka1">Dark Mode</a>
+        <a href="#" class="knopka1">RU/LV</a>
       </div>
       <div class="four4">
-        <a href="#">MENU</a>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
       </div>
      </div>
    </div>
+
+   <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Calendar</a>
+      <a href="#">Online</a>
+      <a href="#">Donate</a>
+      <a href="#"><img src="Assets/Asset17.png" the logo of the website width="250px"></a>
+    </div>
+  </div>
+
    <div class="cont22 parallax2">
     <h1>JESUS</h1>
     <h2>A new beginning...</h2>
@@ -94,6 +107,15 @@ Yes, Jesus’ name is the name above all names, and His star-breathing, storm-ca
    <a class="logoFooter" href="#"><img src="Assets/Asset17.png" alt="the logo of church"> </a>
   </div>
   
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
 </body>
 
 </html>
